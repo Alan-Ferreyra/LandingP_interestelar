@@ -1,0 +1,18 @@
+.sinopse {
+  padding: 5.6vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  div {
+    padding-left: 2.5vw;
+  }
+
+  img {
+    max-width: 100%;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #bdc3c7, #7f8c8d);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}
